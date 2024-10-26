@@ -19,6 +19,5 @@ export class CreateDriverDto {
 
   @IsOptional()
   @IsString()
-  @IsUrl({}, { message: 'Profile photo must be a valid URL' })
-  profilePhoto?: string;
+  profile_photo?: string;
 }

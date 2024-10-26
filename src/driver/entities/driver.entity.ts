@@ -12,5 +12,5 @@ export class Driver {
   phone_number: string;
 
   @Column({ nullable: true })
-  profilePhoto: string;
+  profile_photo: string;
 }

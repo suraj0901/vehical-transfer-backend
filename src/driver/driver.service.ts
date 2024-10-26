@@ -43,7 +43,7 @@ export class DriverService {
     }
     driver.name = updateDriverDto.name;
     driver.phone_number = updateDriverDto.phone_number;
-    driver.profilePhoto = updateDriverDto.profilePhoto;
+    driver.profile_photo = updateDriverDto.profile_photo;
     return this.driverRepository.save(driver);
   }
 
